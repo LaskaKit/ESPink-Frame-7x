@@ -1,0 +1,1 @@
+# ESPink-Frame-7.x" - versatile and low power board with ESP32-S3 for big 7.5" 800x480 or 7.3 6 Color Spectra ePaper/eInk

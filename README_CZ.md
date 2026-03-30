@@ -1,0 +1,1 @@
+# ESPink-Frame-7.x" - univerzální a velmi úsporná deska s ESP32-S3 pro velký 7.5" 800x480 nebo 7.3 6 Color Spectra ePaper/eInk
