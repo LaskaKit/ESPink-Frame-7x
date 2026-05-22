@@ -1,6 +1,6 @@
 /* Display test for LaskaKit ESPink-Frame-7x
  * 
- * Board:   LaskaKit ESPink-Frame-7x   https://www.laskakit.cz/laskakit-espink-frame-7x/
+ * Board with display:   LaskaKit ESPink-Frame-7x   https://www.laskakit.cz/laskakit-espink-frame-7x/
  *
  * Libraries:
  * SHT40: https://github.com/Sensirion/arduino-i2c-sht4x
