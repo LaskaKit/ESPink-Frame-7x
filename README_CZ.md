@@ -53,6 +53,8 @@ Deska je navržená na dlouhý provoz z akumulátoru: displej, čidla, μŠup ko
 | Stabilizátory | 2× RT9080-33 (trvalých 3,3 V pro MCU, spínaných 3,3 V `VSENSOR` pro periferie) |
 | Čidlo na desce | SHT40 (I2C, adresa 0x44) |
 | Logické úrovně | 3,3 V |
+| Rozměry | cca 185 × 120 × 8 mm (deska s displejem) |
+| Hmotnost | 140 g |
 | Revize HW | v1.2 |
 
 ---
@@ -105,7 +107,7 @@ Deska je navržená na dlouhý provoz z akumulátoru: displej, čidla, μŠup ko
 | PUSH | 40 |
 | DOWN | 41 |
 
-> GPIO39–41 nejsou RTC GPIO, tlačítka proto **neumí probudit ESP32-S3 z hlubokého spánku**. Používej je, když deska běží, nebo ji probouzej časovačem.
+> GPIO39–41 nejsou RTC GPIO, tlačítka UP / PUSH / DOWN proto **neumí probudit ESP32-S3 z hlubokého spánku**. Desku probudíš tlačítkem RESET nebo časovačem.
 
 ### Napětí akumulátoru
 
