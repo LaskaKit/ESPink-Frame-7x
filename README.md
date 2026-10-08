@@ -53,6 +53,8 @@ The board is designed for long battery life: the display, sensors, the μŠup co
 | Regulators | 2× RT9080-33 (always-on 3.3 V for the MCU, switchable `VSENSOR` 3.3 V for peripherals) |
 | Onboard sensor | SHT40 (I2C, address 0x44) |
 | Logic level | 3.3 V |
+| Dimensions | approx. 185 × 120 × 8 mm (board with display) |
+| Weight | 140 g |
 | Hardware revision | v1.2 |
 
 ---
@@ -105,7 +107,7 @@ The board is designed for long battery life: the display, sensors, the μŠup co
 | PUSH | 40 |
 | DOWN | 41 |
 
-> GPIO39–41 are not RTC GPIOs, so the buttons **cannot wake the ESP32-S3 from deep sleep**. Use them while the board is awake, or wake it with a timer.
+> GPIO39–41 are not RTC GPIOs, so the UP / PUSH / DOWN buttons **cannot wake the ESP32-S3 from deep sleep**. Wake the board with the RESET button or a timer.
 
 ### Battery voltage
 
